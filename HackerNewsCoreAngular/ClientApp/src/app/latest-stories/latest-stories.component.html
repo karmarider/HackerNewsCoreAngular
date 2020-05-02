@@ -1,0 +1,19 @@
+<h1>Latest Hacker News Stories</h1>
+
+<p *ngIf="!lateststories"><em>Loading...</em></p>
+
+<table class='table' *ngIf="lateststories">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>By</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let lateststory of lateststories">
+      <td *ngIf="!lateststory.url">{{ lateststory.title }}</td>
+      <td *ngIf="lateststory.url"><a href="{{ lateststory.url }}">{{ lateststory.title }}</a></td>
+      <td>{{ lateststory.by }}</td>
+    </tr>
+  </tbody>
+</table>
