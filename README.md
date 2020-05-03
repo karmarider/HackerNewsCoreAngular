@@ -1,3 +1,15 @@
+Link to solution: https://github.com/karmarider/HackerNewsCoreAngular
+
+
+
+Link to previous incremental versions:
+	https://github.com/karmarider/HackerNewsMVC
+	https://github.com/karmarider/HackerNewsAPI
+
+
+
+
+
 1. The requirements:
 	"Use the Hacker News API to generate a moderrn, web based solution using C#, .NET Core, and Angular
 	that displays the title and author of the newest stories on Hacker News. The title should provide a link to the acutal news article.
@@ -23,5 +35,5 @@
 	It serves well as tests.
 	I did develop the "Latest Hacker News Stories" and corresponding Web API that it calls.
 
-6. I abandoned Version 3 approach, which was to develop using Angular CLI and Visual Code. I would have preferred that approach, but I ran into an Angular configuration problem, and in a real work situation,
-	I would have persisted, but in this case I decided on a more time-effective approach.
+6. I abandoned Version 3 approach, which was to develop using Angular CLI and Visual Code. I would have preferred that approach, but I ran into an Angular configuration problem, and usually I would have persisted,
+	but in this case I decided on a more time-effective approach.
