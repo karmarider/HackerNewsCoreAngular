@@ -11,9 +11,9 @@
   </thead>
   <tbody>
     <tr *ngFor="let lateststory of lateststories">
-      <td *ngIf="!lateststory.url">{{ lateststory.title }}</td>
-      <td *ngIf="lateststory.url"><a href="{{ lateststory.url }}">{{ lateststory.title }}</a></td>
-      <td>{{ lateststory.by }}</td>
+      <td *ngIf="lateststory && lateststory.title && !lateststory.url">{{ lateststory.title }}</td>
+      <td *ngIf="lateststory && lateststory.title && lateststory.url"><a href="{{ lateststory.url }}">{{ lateststory.title }}</a></td>
+      <td *ngIf="lateststory && lateststory.by">{{ lateststory.by }}</td>
     </tr>
   </tbody>
 </table>
