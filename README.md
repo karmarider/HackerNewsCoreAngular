@@ -40,4 +40,3 @@ Link to previous incremental versions:
 	a. master - working code
 	b. Tests - added controller unit test
 	c. UITests - adding karma/jasmine tests; latest-stories.component.spec.ts is not yet working
-
