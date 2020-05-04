@@ -38,5 +38,5 @@ Link to previous incremental versions:
 
 7. Branches:
 	a. master - working code
-	b. Tests - added controller unit test
+	b. Tests - added controller unit test - works
 	c. UITests - adding karma/jasmine tests; latest-stories.component.spec.ts is not yet working
