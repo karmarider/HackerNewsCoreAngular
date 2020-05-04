@@ -35,3 +35,9 @@ Link to previous incremental versions:
 	I did develop the "Latest Hacker News Stories" and corresponding Web API that it calls.
 
 6. I abandoned Version 3 approach, which was to develop using Angular CLI and Visual Code. I would have preferred that approach, but I ran into an Angular configuration problem, and usually I would have persisted, but in this case I decided on a more time-effective approach.
+
+7. Branches:
+	a. master - working code
+	b. Tests - added controller unit test
+	c. UITests - adding karma/jasmine tests; latest-stories.component.spec.ts is not yet working
+
