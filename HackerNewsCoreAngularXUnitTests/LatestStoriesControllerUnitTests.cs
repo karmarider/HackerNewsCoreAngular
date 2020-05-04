@@ -32,7 +32,6 @@ namespace HackerNewsCoreAngularXUnitTests
             var response = await controller.GetAsync("");
 
             Assert.True(response.Count() == 500);
-
         }
     }
 }
